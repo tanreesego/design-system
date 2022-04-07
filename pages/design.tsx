@@ -23,7 +23,7 @@ import { Avatars } from '../custom/Avatars';
 import { Paragraph } from '../components/Paragraph';
 import { Sup } from '../components/Sup';
 import { Sub } from '../components/Sub';
-import { TabLink } from '../components/Tablink';
+import { TabLink } from '../components/TabLink';
 
 import {
   Accordion,
