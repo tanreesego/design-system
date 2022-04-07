@@ -125,7 +125,7 @@ export default function PrimitivesPage({ children }: { children: React.ReactNode
           // '@media (min-width: 1440px)': { pr: '250px' },
         }}
       >
-        <Container size="3" css={{ minWidth: '580px', position: 'relative' }}>
+        <Container size="3" css={{ minWidth: '320px', position: 'relative' }}>
           {children}
         </Container>
       </Box>

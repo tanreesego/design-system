@@ -8,7 +8,10 @@ export const Container = styled('div', {
   // Custom
   ml: 'auto',
   mr: 'auto',
-  px: '$5',
+  px: '$2',
+  '@bp2': {
+    px: '$5',
+  },
 
   variants: {
     size: {
