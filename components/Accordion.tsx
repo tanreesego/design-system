@@ -88,6 +88,7 @@ export const AccordionTrigger = React.forwardRef<
     </StyledTrigger>
   </StyledHeader>
 ));
+AccordionTrigger.displayName = 'AccordionTrigger';
 
 const StyledContent = styled(AccordionPrimitive.Content, {
   p: '$2',
