@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const isPrimitivesDocs = router.pathname.includes('/design');
 
   return (
-    <Box css={{ pt: '$8', position: 'relative', zIndex: 1 }}>
+    <Box css={{ pt: '$8', position: 'relative' }}>
       {isPrimitivesDocs && (
         <PrimitivesPage>
           <Component {...pageProps} />

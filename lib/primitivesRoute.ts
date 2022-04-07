@@ -2,7 +2,7 @@ export const primitivesRoutes = [
   {
     label: 'Primitives',
     pages: [
-      { title: 'Accordion', slug: 'design#sheet' },
+      { title: 'Accordion', slug: 'design#accordion' },
       { title: 'Alert', slug: 'design#alert' },
       { title: 'Alert Dialog', slug: 'design#alert-dialog' },
       { title: 'Avatar', slug: 'design#avatar' },
