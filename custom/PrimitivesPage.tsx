@@ -13,6 +13,7 @@ import { css } from '@stitches/react';
 
 export default function PrimitivesPage({ children }: { children: React.ReactNode }) {
   const [isOpen, setIsOpen] = React.useState(false);
+
   return (
     <Flex
       css={{
@@ -29,8 +30,8 @@ export default function PrimitivesPage({ children }: { children: React.ReactNode
           WebkitOverflowScrolling: 'touch',
           overflowX: 'hidden',
           left: 0,
-          top: '0',
-          zIndex: '$zIndices$max',
+          top: 0,
+          zIndex: 1,
           position: 'fixed',
           backgroundColor: '$loContrast',
 
@@ -51,6 +52,7 @@ export default function PrimitivesPage({ children }: { children: React.ReactNode
               alignItems: 'center',
               py: '$2',
               px: '$4',
+
               '@bp2': { display: 'none' },
             }}
           >
@@ -88,9 +90,10 @@ export default function PrimitivesPage({ children }: { children: React.ReactNode
                       key={page.slug}
                       href={`/${page.slug}`}
                       disabled={isDraft}
+                      onClick={() => setIsOpen(!isOpen)}
                       // active={currentPageSlug === page.slug}
                     >
-                      <Text size="2" css={{ color: 'inherit', lineHeight: '1' }}>
+                      <Text size="8" css={{ color: 'inherit', lineHeight: '1' }}>
                         {page.title}
                       </Text>
                       {isBeta ? (
@@ -121,7 +124,7 @@ export default function PrimitivesPage({ children }: { children: React.ReactNode
           pb: '$5',
           zIndex: 0,
 
-          '@bp2': { pb: '$9', pl: '250px' },
+          '@bp2': { pb: '$9', ml: '250px' },
           // '@media (min-width: 1440px)': { pr: '250px' },
         }}
       >

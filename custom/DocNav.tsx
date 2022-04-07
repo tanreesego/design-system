@@ -24,6 +24,7 @@ type NavItemProps = {
   active?: boolean;
   disabled?: boolean;
   href: string;
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
 };
 
 export function NavItem({ children, active, disabled, href, ...props }: NavItemProps) {
