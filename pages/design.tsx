@@ -23,7 +23,7 @@ import { Avatars } from '../custom/Avatars';
 import { Paragraph } from '../components/Paragraph';
 import { Sup } from '../components/Sup';
 import { Sub } from '../components/Sub';
-import { TabLink } from '../components/Tablink';
+import { TabLink } from '../components/TabLink';
 
 import {
   Accordion,
@@ -517,7 +517,7 @@ export default function Design() {
               text, like for example, the kind you might read in a blog post. The reason we&apos;re
               using prose here is because the most common use case for this container size is
               longform text. So we&apos;re previewing some longform text here so we can make sure
-              the container width provides an optimal line length for this font size.
+              the container width provides an optimal line length for this font size. yay
             </Paragraph>
             <Paragraph>
               This is a Sup and Sub demo. The kind you might read in a blog post.<Sup>1</Sup> This
