@@ -23,7 +23,7 @@ import { Avatars } from '../custom/Avatars';
 import { Paragraph } from '../components/Paragraph';
 import { Sup } from '../components/Sup';
 import { Sub } from '../components/Sub';
-import { TabLink } from '../components/TabLink';
+import { TabLink } from '../components/Tablink';
 
 import {
   Accordion,
@@ -172,7 +172,7 @@ export default function Design() {
                   With horizontal overflow on small devices and when zoomed in, tables are a pain to
                   navigate. I added a focus wrapper that will announce the table context to the user
                   when focused, which also allows keyboard users to navigate the overflow more
-                  easily.
+                  easily. wow
                 </Text>
               </AccordionContent>
             </AccordionItem>
