@@ -132,9 +132,9 @@ export default function Design() {
               <AccordionContent>
                 <Text size="3" css={{ lineHeight: '23px' }}>
                   The other main improvement is with tables, which we&apos;ll probably use a lot.
-                  With horizontal overflow on small devices and when zoomed in, tables are a pain to
-                  navigate. I added a focus wrapper that will announce the table context to the user
-                  when focused, which also allows keyboard users to navigate the overflow more
+                  With horizontal overflow on small devicess and when zoomed in, tables are a pain
+                  to navigate. I added a focus wrapper that will announce the table context to the
+                  user when focused, which also allows keyboard users to navigate the overflow more
                   easily.
                 </Text>
               </AccordionContent>
