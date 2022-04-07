@@ -55,7 +55,7 @@ export type RouteProps = {
   pages: PageProps[];
 };
 
-export const allPrimitivesRoutes = primitivesRoutes.reduce((acc, curr: RouteProps) => {
+export const allPrimitivesRoutes = primitivesRoutes.reduce((acc: any, curr: RouteProps) => {
   acc = [...acc, ...curr.pages.filter((p) => p.draft !== true)];
   return acc;
 }, []);
