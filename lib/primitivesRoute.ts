@@ -4,9 +4,10 @@ export const primitivesRoutes = [
     pages: [
       { title: 'Accordion', slug: 'design#accordion' },
       { title: 'Alert', slug: 'design#alert' },
-      { title: 'Alert Dialog', slug: 'design#alert-dialog' },
+      { title: 'Alert Dialog', slug: 'design#alertdialog' },
       { title: 'Avatar', slug: 'design#avatar' },
-      { title: 'Badge', slug: 'design#badge', draft: true },
+      { title: 'Badge', slug: 'design#badge' },
+      { title: 'Something...', slug: 'design#badge', draft: true },
       { title: 'Banner', slug: 'design#banner' },
       { title: 'Button', slug: 'design#button' },
       { title: 'Card', slug: 'design#card' },
